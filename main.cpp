@@ -281,7 +281,6 @@ int main(void)
 
 			bot.global_command_create(purge);
 
-			/* Not Defined */
 			dpp::slashcommand edit_channel_name("channel_name", "Change the name of the current channel.", bot.me.id);
 			edit_channel_name.add_option(
 				dpp::command_option(dpp::co_string, "name", "The new channel's name!", true)
